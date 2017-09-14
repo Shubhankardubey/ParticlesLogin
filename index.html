@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Particle's Login</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div id="particles-js"></div>
+<script>
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+
+</script>
+<script>
+particlesJS.load('particles.js', 'particles.json', function(){
+console.log('particles.json loaded.....');
+});
+</script>
+</body>
+</html>
